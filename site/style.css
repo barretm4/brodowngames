@@ -10,11 +10,32 @@ body {
     padding: 20px;
     text-align: center;
   }
+    .SignIn{
+      display: flex;
+      justify-content: right;
+      align-items: center;
+    }
+      .SignIn P{
+        align-items: flex-end;
+      }
+      .SignIn textarea{
+        height: 20px;
+        padding: 0;
+        border: 0;
+      }
+      .SignIn button{
+        display: inline-flex;
+        align-items: center;
+        height: 20px;
+        padding: 0;
+        border: 0;
+      }
   header div ul{
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
     justify-content: space-around;
-}
+  }
+
     header div ul li a{
     color: lightslategray;
     text-decoration: none;
