@@ -10,33 +10,13 @@ body {
     padding: 20px;
     text-align: center;
   }
-    .SignIn{
-      display: flex;
-      justify-content: right;
-      align-items: center;
-    }
-      .SignIn P{
-        align-items: flex-end;
-      }
-      .SignIn textarea{
-        height: 20px;
-        padding: 0;
-        border: 0;
-      }
-      .SignIn button{
-        display: inline-flex;
-        align-items: center;
-        height: 20px;
-        padding: 0;
-        border: 0;
-      }
-  header div ul{
+  header div nav{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
   }
 
-    header div ul li a{
+    header div nav a{
     color: lightslategray;
     text-decoration: none;
     
@@ -44,7 +24,7 @@ body {
   .hero {
     background-image: url('background.jpg');
     background-size: cover;
-    color: #fff;
+    color: #000000;
     padding: 100px;
     text-align: center;
   }
