@@ -12,9 +12,25 @@ body {
   }
   header div{
     display: flex;
-    justify-content: center;
+    flex:auto
   }
-  header div nav{
+  .leftsideheader{
+    justify-content: end;
+  }
+  .logo{
+    margin-right: 100px;
+  }
+  .rightsideheader{
+    flex-direction: column;
+  }
+  .signIn{
+    justify-content: end;
+  }
+  textarea{
+    color: grey;
+    text-emphasis:;
+  }
+  .navigation{
     display: flex;
     list-style-type: none;
     align-items: end;
