@@ -19,25 +19,27 @@ body {
   }
   .logo{
     margin-right: 100px;
+    size: inherit;
   }
   .rightsideheader{
     flex-direction: column;
+    margin-right: auto;
   }
-  .signIn{
-    justify-content: end;
+  .user-panel{
   }
-  textarea{
-    color: grey;
-    text-emphasis:;
+  .user-panel a{
+    margin-left: 20px;
+    color: lightgrey;
+    text-decoration: none;
   }
   .navigation{
     display: flex;
     list-style-type: none;
     align-items: end;
-    justify-content: space-between;
+    margin-right: auto;
   }
 
-    header div nav a{
+    .navigation a{
     color: lightslategray;
     text-decoration: none;
     margin-left: 20px;
