@@ -8,7 +8,6 @@ body {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    text-align: center;
   }
   header div{
     display: flex;
@@ -23,12 +22,10 @@ body {
   }
   .rightsideheader{
     flex-direction: column;
-    margin-right: auto;
+    width: fit-content;
   }
   .user-panel{
-    justify-content: end;
-    width: 391.281px;
-    margin-right: auto;
+   width: fit-content;
   }
   .user-panel a{
     margin-left: 20px;
@@ -39,7 +36,6 @@ body {
     display: flex;
     list-style-type: none;
     align-items: end;
-    margin-right: auto;
   }
 
     .navigation a{
