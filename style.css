@@ -26,6 +26,9 @@ body {
     margin-right: auto;
   }
   .user-panel{
+    justify-content: end;
+    width: 391.281px;
+    margin-right: auto;
   }
   .user-panel a{
     margin-left: 20px;
